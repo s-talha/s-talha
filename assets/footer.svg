@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Decorative aurora wave">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#EC4899"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <clipPath id="clip"><rect width="1200" height="150" rx="20"/></clipPath>
+  </defs>
+  <style>
+    @keyframes d1{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,18px)}}
+    @keyframes d2{0%,100%{transform:translate(0,0)}50%{transform:translate(-70px,24px)}}
+    @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,-20px)}}
+    .a1{animation:d1 16s ease-in-out infinite}.a2{animation:d2 19s ease-in-out infinite}.a3{animation:d3 22s ease-in-out infinite}
+    @keyframes w{0%,100%{transform:translateX(0)}50%{transform:translateX(-60px)}}.w{animation:w 14s ease-in-out infinite}
+    @media (prefers-reduced-motion: reduce){.a1,.a2,.a3,.w{animation:none}}
+  </style>
+  <rect width="1200" height="150" rx="20" fill="#080812"/>
+  <g filter="url(#blur)" clip-path="url(#clip)">
+    <ellipse class="a1" cx="264.0" cy="18.0" rx="384.0" ry="63.0" fill="#8B5CF6" opacity="0.35"/>
+    <ellipse class="a2" cx="696.0" cy="3.0" rx="312.0" ry="51.00000000000001" fill="#EC4899" opacity="0.25"/>
+    <ellipse class="a3" cx="1056.0" cy="57.0" rx="312.0" ry="66.0" fill="#22D3EE" opacity="0.28"/>
+  </g>
+  <g clip-path="url(#clip)">
+    <path class="w" d="M-80 70 C 140 30, 360 110, 600 72 S 1000 30, 1280 74 L 1280 150 L -80 150 Z" fill="url(#g)" opacity=".22"/>
+    <path d="M0 96 C 240 66, 480 126, 720 98 S 1060 70, 1200 100 L 1200 150 L 0 150 Z" fill="url(#g)" opacity=".35"/>
+  </g>
+</svg>

@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Sana. Senior software engineer building AI agents that use tools and show their work." width="100%">
-</picture>
+<img src="assets/hero.svg" alt="Sana. AI engineer in Stockholm, building agents that use real tools, explain their decisions and fail safely." width="100%">
 
 I've spent 18 years building production software: backend services, cloud data pipelines, web apps, and the test suites that keep them honest. I've shipped systems for healthcare, finance, banking and SaaS.
 
@@ -32,11 +29,10 @@ Reads incoming support tickets, classifies them with an LLM, and decides whether
 
 ## Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="AI and agents: Anthropic API, OpenAI API, tool calling, agent loops, streaming. Backend: Java, Spring Boot, Node.js, Python, Flask, C# and .NET, REST APIs. Frontend: TypeScript, React, Next.js, Angular, Tailwind CSS. Data and cloud: PostgreSQL, MongoDB, Prisma, Google Cloud, BigQuery, Dataflow, Pub/Sub. Quality and delivery: Playwright, Selenium, Vitest, GitHub Actions, Docker, Kubernetes." width="100%">
-</picture>
+<img src="assets/stack.svg" alt="AI and agents: Anthropic API, OpenAI API, tool calling, agent loops, streaming. Backend: Java, Spring Boot, Node.js, Python, Flask, C# and .NET, REST APIs. Frontend: TypeScript, React, Next.js, Angular, Tailwind CSS. Data and cloud: PostgreSQL, MongoDB, Prisma, Google Cloud, BigQuery, Dataflow, Pub/Sub. Quality and delivery: Playwright, Selenium, Vitest, GitHub Actions, Docker, Kubernetes." width="100%">
 
 ## Get in touch
 
 Based in Stockholm and open to new projects and roles, remote or on site. The easiest way to reach me is through any of my repositories.
+
+<img src="assets/footer.svg" alt="" width="100%">
