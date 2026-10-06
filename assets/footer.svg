@@ -10,8 +10,8 @@
     @keyframes d1{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,18px)}}
     @keyframes d2{0%,100%{transform:translate(0,0)}50%{transform:translate(-70px,24px)}}
     @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,-20px)}}
-    .a1{animation:d1 16s ease-in-out infinite}.a2{animation:d2 19s ease-in-out infinite}.a3{animation:d3 22s ease-in-out infinite}
-    @keyframes w{0%,100%{transform:translateX(0)}50%{transform:translateX(-60px)}}.w{animation:w 14s ease-in-out infinite}
+    
+    
     @media (prefers-reduced-motion: reduce){.a1,.a2,.a3,.w{animation:none}}
   </style>
   <rect width="1200" height="150" rx="20" fill="#080812"/>
