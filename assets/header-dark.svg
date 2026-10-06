@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Talha Sajjad. Senior software engineer building AI agents.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sana. Senior software engineer building AI agents.">
   <style>
     .n{opacity:1}
     @keyframes k0{0%,10%{opacity:1;transform:none}14%,22%{opacity:0;transform:translateY(4px)}26%,100%{opacity:1;transform:none}}.n0{animation:k0 10s ease-out infinite}@keyframes k1{0%,10%{opacity:1;transform:none}14%,34%{opacity:0;transform:translateY(4px)}38%,100%{opacity:1;transform:none}}.n1{animation:k1 10s ease-out infinite}@keyframes k2{0%,10%{opacity:1;transform:none}14%,46%{opacity:0;transform:translateY(4px)}50%,100%{opacity:1;transform:none}}.n2{animation:k2 10s ease-out infinite}@keyframes k3{0%,10%{opacity:1;transform:none}14%,58%{opacity:0;transform:translateY(4px)}62%,100%{opacity:1;transform:none}}.n3{animation:k3 10s ease-out infinite}
@@ -8,7 +8,7 @@
   </style>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="#121821" stroke="#2c3647"/>
   <text x="56" y="82" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#7d889a">Stockholm, Sweden</text>
-  <text x="54" y="146" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="-1" fill="#e3e8f0">Talha Sajjad</text>
+  <text x="54" y="146" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="-1" fill="#e3e8f0">Sana</text>
   <text x="56" y="194" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#aab4c3">Senior software engineer building AI agents</text>
   <text x="56" y="226" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#aab4c3">that use tools and show their work.</text>
   <rect x="690" y="40" width="470" height="220" rx="12" fill="#1a2230" stroke="#2c3647"/>

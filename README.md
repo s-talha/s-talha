@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Talha Sajjad. Senior software engineer building AI agents that use tools and show their work." width="100%">
+  <img src="assets/header-light.svg" alt="Sana. Senior software engineer building AI agents that use tools and show their work." width="100%">
 </picture>
 
 I've spent 18 years building production software: backend services, cloud data pipelines, web apps, and the test suites that keep them honest. I've shipped systems for healthcare, finance, banking and SaaS.
