@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Sana. AI engineer in Stockholm, building agents that use tools and show their work.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Talha S. AI engineer in Stockholm, building agents that use tools and show their work.">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#EC4899"/><stop offset="1" stop-color="#22D3EE"/>
@@ -22,7 +22,7 @@
   <rect x="0.5" y="0.5" width="1199" height="359" rx="19.5" fill="none" stroke="#F8FAFC" stroke-opacity=".08"/>
 
   <text x="64" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#22D3EE">AI engineer in Stockholm</text>
-  <text x="60" y="186" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-2" fill="#F8FAFC">Sana</text>
+  <text x="60" y="186" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-2" fill="#F8FAFC">Talha S.</text>
   <rect x="64" y="206" width="72" height="4" rx="2" fill="url(#g)"/>
   <text x="64" y="248" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#CBD5E1">I build AI agents that use real tools,</text>
   <text x="64" y="278" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#CBD5E1">explain their decisions and fail safely.</text>

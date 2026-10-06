@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" alt="Sana. AI engineer in Stockholm, building agents that use real tools, explain their decisions and fail safely." width="100%">
+<img src="assets/hero.svg" alt="Talha S. AI engineer in Stockholm, building agents that use real tools, explain their decisions and fail safely." width="100%">
 
 I've spent 18 years building production software: backend services, cloud data pipelines, web apps, and the test suites that keep them honest. I've shipped systems for healthcare, finance, banking and SaaS.
 
