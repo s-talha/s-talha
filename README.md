@@ -14,6 +14,23 @@ Build AI agents with tools, run them, and watch every step they take. Each model
 
 `Next.js` `TypeScript` `PostgreSQL` `Prisma` `Auth.js` `Server-Sent Events` `Playwright`
 
+### [Helpdesk MCP server and triage agent](https://github.com/s-talha/helpdesk-mcp)
+
+A support helpdesk exposed as an MCP server that Claude Desktop or any MCP client can use, plus an agent that connects to it over MCP and triages tickets on its own. Tools are typed and annotated as read-only or write, a read-only mode hides write tools entirely, the agent asks a person before every write, and every write is audited.
+
+```text
+$ helpdesk-agent "Triage the urgent open tickets"
+model   I'll find the urgent open tickets first.
+call    search_tickets(status=open, priority=urgent)
+call    get_ticket(2), get_ticket(1), get_ticket(3)
+call    search_kb("Teachers locked out after SSO change")
+result  sso-setup: Setting up single sign-on
+call    add_comment(3, internal note)
+model   Left an internal note on each ticket. Nothing was sent to customers.
+```
+
+`Python` `Model Context Protocol` `Pydantic` `SQLite` `pytest` `GitHub Actions`
+
 ### [AI Support Ticket Triage Agent](https://github.com/s-talha/support-triage-agent-source)
 
 Reads incoming support tickets, classifies them with an LLM, and decides whether to answer automatically or hand off to a person. The routing rules are plain code, not the model, so they can be tested and audited. If classification fails, the ticket goes to a human by default.
@@ -29,10 +46,10 @@ Reads incoming support tickets, classifies them with an LLM, and decides whether
 
 ## Stack
 
-<img src="assets/stack.svg" alt="AI and agents: Anthropic API, OpenAI API, tool calling, agent loops, streaming. Backend: Java, Spring Boot, Node.js, Python, Flask, C# and .NET, REST APIs. Frontend: TypeScript, React, Next.js, Angular, Tailwind CSS. Data and cloud: PostgreSQL, MongoDB, Prisma, Google Cloud, BigQuery, Dataflow, Pub/Sub. Quality and delivery: Playwright, Selenium, Vitest, GitHub Actions, Docker, Kubernetes." width="100%">
+<img src="assets/stack.svg" alt="AI and agents: Anthropic API, OpenAI API, MCP, tool calling, agent loops, streaming. Backend: Java, Spring Boot, Node.js, Python, Flask, C# and .NET, REST APIs. Frontend: TypeScript, React, Next.js, Angular, Tailwind CSS. Data and cloud: PostgreSQL, MongoDB, Prisma, Google Cloud, BigQuery, Dataflow, Pub/Sub. Quality and delivery: Playwright, Selenium, Vitest, GitHub Actions, Docker, Kubernetes." width="100%">
 
 ## Get in touch
 
-Based in Stockholm and open to new projects and roles, remote or on site. The easiest way to reach me is through any of my repositories.
+Based in Stockholm and open to new projects and roles, remote or on site. See more on my portfolio site, **[s-talha.github.io](https://s-talha.github.io)**.
 
 <img src="assets/footer.svg" alt="" width="100%">
