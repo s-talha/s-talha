@@ -37,6 +37,10 @@ Reads incoming support tickets, classifies them with an LLM, and decides whether
 
 `Python` `Flask` `Anthropic` `OpenAI`
 
+### Currently building
+
+**Real estate lead agent** (private repo, in progress): an AI agent that handles incoming leads for real estate brokers in the US market.
+
 ## How I build
 
 - **The model suggests, code decides.** LLMs classify and draft. Anything with real consequences goes through rules you can read and test.
