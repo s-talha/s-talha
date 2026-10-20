@@ -37,6 +37,14 @@ Reads incoming support tickets, classifies them with an LLM, and decides whether
 
 `Python` `Flask` `Anthropic` `OpenAI`
 
+### [n8n Automation Workflows](https://github.com/s-talha/n8n-automation-workflows)
+
+Eight importable n8n workflows for real business processes: AI lead qualification, a support inbox agent with RAG, invoice processing with Slack approvals, a document chatbot, booking reminders, Stripe onboarding, content repurposing and B2B lead enrichment. Each one has its own README and a canvas image.
+
+<a href="https://github.com/s-talha/n8n-automation-workflows"><img src="https://raw.githubusercontent.com/s-talha/n8n-automation-workflows/main/01-real-estate-lead-qualifier/canvas.png" alt="n8n workflow: a lead webhook feeds an AI agent that scores the lead, then routes hot, warm and cold leads to HubSpot, Slack, SMS, email and Google Sheets" width="100%"></a>
+
+`n8n` `OpenAI` `Anthropic` `Pinecone` `HubSpot` `Slack` `Webhooks`
+
 ### Currently building
 
 **Real estate lead agent** (private repo, in progress): an AI agent that handles incoming leads for real estate brokers in the US market.
@@ -45,7 +53,7 @@ Reads incoming support tickets, classifies them with an LLM, and decides whether
 
 - **The model suggests, code decides.** LLMs classify and draft. Anything with real consequences goes through rules you can read and test.
 - **Every run is traceable.** You should be able to open any answer and see the steps, tool calls and inputs behind it.
-- **It runs without keys.** My projects include a demo mode, so anyone can clone and try them in a minute.
+- **It runs without keys.** My code projects include a demo mode, so anyone can clone and try them in a minute.
 - **Tested like production.** Unit tests for the logic, end-to-end tests for the flows, CI on every push.
 
 ## Stack
